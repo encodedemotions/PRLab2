@@ -6,7 +6,7 @@ import http.server
 import smtplib
 
 # Get email host, user email, and user password from .env file
-# .env file does not get uploaded to github, duh
+# .env file does not get uploaded to github
 from chatbot import get_response
 
 EMAIL_HOST = os.getenv('EMAIL_HOST')
